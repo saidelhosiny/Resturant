@@ -1,0 +1,249 @@
+:root{
+    --main-ccolor: #000000f2;
+}
+body{
+    background-color:var(--main-ccolor);
+    overflow: hidden;
+
+}
+
+.post{
+  overflow: hidden;
+    cursor: pointer;
+}
+.layer {
+   background-color: rgb(255, 255, 255,0.7);
+   transition: 0.7s 0.5 all;
+
+   bottom: 0px;
+   right: 0px ;
+   left: 0px;
+   top: 150%;
+   -webkit-transition: 0.5s all;
+   -moz-transition: 0.5s all;
+   -ms-transition: 0.5s all;
+   -o-transition: 0.5s all;
+}
+.post:hover .layer{
+    top: 0;
+}
+
+.main-nav{
+    top: 0px;
+    left: -400px;
+    bottom: 0px;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(13, 13, 13);
+    z-index: 99999999999;
+}
+   
+
+li{
+    list-style: none !important;
+}
+.main-nav  li {
+    
+    padding-top: 500px;
+    opacity: 0;
+}
+.main-nav ul{
+    font-size: 18px;
+}
+.socail-links{
+    bottom: 20px;
+    left: 10px;
+}
+.socail-links {
+    z-index: 9;
+}
+.socail-links i{
+    cursor: pointer;
+}
+.open-close-nav{
+    background-color: #f8f6f6;
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    z-index: 9999999;
+    
+}
+.strip-logo{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    padding: 5px 0;
+    
+    
+}
+.strip-logo img{
+    height: 50px;
+}
+.strip .menu-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px !important;
+    padding: 10px 0;
+    cursor: pointer;
+   
+}
+.strip .strip-social-icon{
+    position: absolute;
+   bottom: 5%;
+    left: 50%;
+    font-size: 20px !important;
+    padding: 10px 0;
+    cursor: pointer;
+   
+}
+
+.loading-screen{
+    background-color: #000;
+    display: flex;
+    z-index: 999999;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.Front-page-ingredients{
+    display: none;
+}
+.search-screen{
+    display: none;
+}
+
+.post {
+
+    overflow: hidden;
+}
+ input{
+    border: none !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(255,255,255,.7) !important;
+   
+}
+
+.search-screen .layer{
+    background-color: rgb(255, 255, 255,0.7);
+    transition: 0.7s 0.5 all;
+    bottom: 0px;
+    right: 0px ;
+    left: 0px;
+    top: 200%;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.showing-search-res .post{
+    overflow: hidden;
+}
+.post:hover .layer{
+    top: 0px;
+    
+}
+.Search-page-ingredients{
+    display: none;
+}
+
+.catigories-section{
+    display: none;
+}
+.category-part .layer{
+    background-color: rgb(255, 255, 255,0.7);
+    transition: 0.7s 0.5 all;
+    bottom: 0px;
+    right: 0px ;
+    left: 0px;
+    top: 1000%;
+    -webkit-transition: 0.7s 0.5 all;
+    -moz-transition: 0.7s 0.5 all;
+    -ms-transition: 0.7s 0.5 all;
+    -o-transition: 0.7s 0.5 all;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.category-part:hover .layer{
+top: 0;
+}
+.category-part{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.catigores-parts{
+    display: none;
+}
+
+.catigores-parts .layer{
+    background-color: rgb(255, 255, 255,0.7);
+    transition: 1s 0.5 all;
+    bottom: 0px;
+    right: 0px ;
+    left: 0px;
+    top: 1000%;
+    -webkit-transition: 1s 0.5 all;
+    -moz-transition: 1s 0.5 all;
+    -ms-transition: 1s 0.5 all;
+    -o-transition: 1s 0.5 all;
+    border: 10px;
+}
+.category-parts .post:hover .layer{
+    top: 0;
+    }
+    .catigores-parts .post{
+        overflow: hidden;
+    }
+    .layer h2{
+        font-size: 20px;
+    }
+ input:focus {
+    outline:0px !important;
+    
+    box-shadow: none !important;
+    
+ }   
+ .area-section{
+    display: none;
+ }
+ .fa-city{
+    
+    color: #e65a50ab;
+ }
+ .ingredients-section{
+    display: none;
+ }
+ .fa-bowl-food {
+    color: #9ee650ab ;
+ }
+.recipes-btns li:hover{
+border: none !important;
+}
+.ingerdenits-desc p{
+    font-size:20px ;
+
+}
+
+.recipes-btns li{
+    color: #155724 !important;
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+    
+}
+.fa-spinner{
+    color: rgb(207, 207, 22);
+}
+.Contact-section{
+    display: none;
+}
+.namealert,.emailalert,.phonealert,.agealert,.passwordalert ,.Repasswordalert{
+display: none;
+}
